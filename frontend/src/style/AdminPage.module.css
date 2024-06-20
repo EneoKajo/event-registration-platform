@@ -1,0 +1,100 @@
+/* AdminPage.module.css */
+
+.adminContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 100px; 
+  }
+  
+  .eventSection, .userSection {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); 
+    transition: transform 0.3s ease;
+    margin-bottom: 20px; 
+    max-width: 300px; 
+  }
+
+  
+  .eventSection {
+    margin-left: 300px; 
+  }
+  
+  .userSection {
+    margin-left: 20px; 
+  }
+  
+  .userSection:last-child {
+    margin-right: 200px; 
+  }
+  
+  .eventSection:last-child, .userSection:last-child {
+    margin-bottom: 0; 
+  }
+  
+  .eventSection:hover, .userSection:hover {
+    transform: translateY(-5px);
+  }
+  
+  .eventSection h2, .userSection h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .eventSection p, .userSection p {
+    margin: 0;
+    color: #666666;
+  }
+  
+  .eventSection .buttonContainer, .userSection .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .eventSection .button, .userSection .button {
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .eventSection .button:first-child, .userSection .button:first-child {
+    margin-left: 0;
+  }
+  
+  .eventSection .button:hover, .userSection .button:hover {
+    background-color: #0069d9; 
+  }
+  
+  .eventSection .button:active, .userSection .button:active {
+    background-color: #0069d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eventSection .content, .userSection .content {
+    margin-top: 20px; 
+  }
+  
+  .eventSection .content > div, .userSection .content > div {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .eventSection .content > div:last-child, .userSection .content > div:last-child {
+    margin-bottom: 0;
+  }
+  
+  .admintitle{
+    margin-left: 300px;
+  }

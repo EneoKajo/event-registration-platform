@@ -1,0 +1,65 @@
+/* Login.module.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87CEEB; 
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #FFFFFF; 
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container button[type="submit"],
+.container .link-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button[type="submit"]:hover,
+.container .link-btn:hover {
+  background-color: #0056b3; 
+}
+
+.container .link-btn {
+  margin-top: 10px;
+}

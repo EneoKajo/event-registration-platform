@@ -1,0 +1,52 @@
+/* Attendees.module.css */
+
+.content {
+    margin: 20px auto; 
+    max-width: 800px; 
+  }
+  
+  .tableContainer {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: 20px; 
+  }
+  
+  .tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tableContainer th,
+  .tableContainer td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableContainer th {
+    background-color: #f2f2f2;
+  }
+  
+  .tableContainer td button {
+    background-color: #dc3545; 
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .tableContainer td button:hover {
+    background-color: #c82333; 
+  }
+  
+  .tableContainer td button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); 
+  }
+  

@@ -1,0 +1,75 @@
+/* AttendingEvents.module.css */
+
+.content {
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .eventsList {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .eventCard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .eventCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .eventCardContent {
+    flex: 1; 
+  }
+  
+  .eventCard h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .eventCard p {
+    margin: 0 0 10px;
+    color: #666666;
+  }
+  
+  .eventCard p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button {
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0069d9; 
+  }
+  
+  .button:active {
+    background-color: #0069d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
